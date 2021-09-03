@@ -53,4 +53,9 @@
 ;; You can also try 'gd' (or 'C-c c d') to jump to their definition and see how
 ;; they are implemented.
 
+;; Turning off confirmation when quitting emacs.
 (setq confirm-kill-emacs nil)
+
+;; Making sure rust-analyzer is preferred.
+(after! rustic
+ (setq rustic-lsp-server 'rust-analyzer))
