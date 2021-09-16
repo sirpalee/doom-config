@@ -59,3 +59,6 @@
 ;; Making sure rust-analyzer is preferred.
 (after! rustic
  (setq rustic-lsp-server 'rust-analyzer))
+
+;; Material theme sure looks fancy.
+(setq doom-theme 'doom-material)
