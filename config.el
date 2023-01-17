@@ -84,3 +84,6 @@
 
 ;; Material theme sure looks fancy.
 (setq doom-theme 'doom-material)
+
+;; Disable LSP lenses that can cause a lots of slowdown with large C++ files.
+(setq lsp-lens-enable nil)
